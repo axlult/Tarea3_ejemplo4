@@ -4,7 +4,9 @@ public class Main {
         OperacionesNatural operacionesNatural = new OperacionesNatural();
          fraccion f1= new fraccion(1,4);
         fraccion f2= new fraccion(1,2);
-
+        
+        operacionesFracciones.sumar(f1, f2);
+        operacionesNatural.sumar(f1, f2);
 
     }
     public class fraccion{
